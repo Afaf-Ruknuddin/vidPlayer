@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header-img{
+    width: 100%;
+    height: 360px;
+    background: url(./images/header-img.jpg);
+    background-size: cover;
+}
+
+// navbar 
+
+.navbar{
+    background-color: rgb(228, 255, 246);
+    height: 7rem;
+}
+
+.navbar-brand{
+    font-size: 3rem !important;
+    font-weight: 700;
+    color: royalblue !important;
+    padding-left: 1rem ;
+
+    &:hover{
+        color: rgba(18, 129, 120, 0.787) !important;
+    }
+}
+
+.nav-item{
+    font-size: 2rem;
+    margin-right: 1rem;
+
+    .nav-link:hover{
+        color: rgb(13, 13, 195) !important;
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+}
+
+// home 
+
+.home-main{
+    display: flex;
+}
+
+.home-img{
+    .h-img{
+        background-size: cover;
+        width: 70%;
+    }
+}
+
+.text-home{
+    text-transform: capitalize;
+}
+
+.home-h1{
+    font-size: 4rem;
+    &:hover{
+        .home-span{
+            background-color: rgb(39, 123, 144);
+        }
+    }
+}
+
+.home-p{
+    font-size: 1.5rem;
+    color: #3d0a55;
+}
+ 
+// vidPlay 
+
+.card-vid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    width: 21.25%;
+    float: left;
+}
+
+
+
+// footer 
+
+.footer-style{
+    background-color: #f1f1f1;
+}
+
+.footer-copyright{
+    background-color: rgba(0, 0, 0, 0.2)
+}
